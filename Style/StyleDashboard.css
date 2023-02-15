@@ -1,0 +1,132 @@
+/* !! Fake Loading */
+body{
+    background-color: rgb(247, 242, 242);
+}
+.background_Loading{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    background-color:beige;
+}
+.move_loading{
+    width: 10%;
+    margin:50vh auto;
+    height: 10vmax;
+}
+.ping {
+    --uib-size: 5vmax;
+    --uib-speed: 2s;
+    --uib-color: black;
+  
+    position: relative;
+    height: var(--uib-size);
+    width: var(--uib-size);
+  }
+  
+  .ping::before,
+  .ping::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: var(--uib-color);
+    animation: pulse var(--uib-speed) linear infinite;
+    transform: scale(0);
+    opacity: 0;
+  }
+  
+  .ping::after {
+    animation-delay: calc(var(--uib-speed) / -2);
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  
+.DashboardText{
+   line-height: 30vmax;
+}
+.background_Tarif{
+  width: 95%;
+  display: inline-block;
+  margin-left: 3%;
+  justify-content: space-between;
+  position: absolute;
+  height: 35vmax;
+  display: flex;
+  margin-top: -8vmax;
+ 
+}
+.border_Tarif{
+  width: 30%;
+  height: 38vmax;
+  margin-left: 65%;
+  margin-top: -2vmax;
+  border-radius: 10px;
+  position: fixed;
+  overflow: hidden;
+  box-shadow:
+  8.2px 6.9px 7.4px rgba(0, 0, 0, 0.092),
+  17.6px 14.9px 20.5px rgba(0, 0, 0, 0.121),
+  33.7px 28.5px 49.4px rgba(0, 0, 0, 0.149),
+  78px 66px 164px rgba(0, 0, 0, 0.21);
+  background-color: rgb(176, 187, 183);
+}
+.text_tarif{
+  line-height: 18vmax;
+  text-indent: 3vmax;
+  color: black;
+}
+.border_result{
+  width: 60%;
+  height: 35vmax;
+  /* background-color: rgb(220, 220, 233); */
+  border-radius: 10px;
+}
+.form_tarif{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 300;
+  text-indent: 2vmax;
+  margin-top: 1vmax;
+  font-family: sans-serif;
+}
+.Kode_Tarif{
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  text-indent: 2vmax;
+  margin-top: 2vmax;
+  font-family: sans-serif;
+}
+
+
+/* !! Pelanggan */
+.Pelanggan_Text{
+  position: absolute;
+  margin-top: 15vmax;
+  color: black;
+}
+
+/* !! Profile */
+.border_Profile{
+  width: 30%;
+  display: inline-block;
+  border-radius: 10px;
+  height:33vmax;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: -7vmax;
+  background-color: rgb(234, 225, 224);
+}

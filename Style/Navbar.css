@@ -1,0 +1,133 @@
+nav{
+    color: rgb(214, 193, 193,.5);
+    text-decoration: none;   
+    width: 100%;
+    background-color: #252525;
+    height: 5vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 8;
+    line-height: 5vmax;
+  }
+  .logo{
+    margin-top: 1vmax;
+  }
+  .NonActif{
+    color: darkgray;
+    text-decoration: none;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    font-family: 'Lobster', cursive;
+   
+  }
+  li:hover{
+    background-color:  rgba(219, 51, 107, 0.77);
+    height: 6px;
+    color: darkcyan;
+    border-radius:10px;
+    animation: li .5s ease 1 reverse ; 
+    transition: ease-in 1ms;
+  }
+  @keyframes li {
+    0%{
+      color:darkcyan ;
+       width: 100%;
+    }
+    100%{
+       color: rgb(6, 144, 144,.5);
+        width: 0;
+  }
+  }
+  .Actif{
+    background-color: rgba(219, 51, 107, 0.77);
+    height: 6px;
+    border-radius:10px;
+    text-decoration: none;
+    color: darkcyan;
+  }
+  
+  h1{
+    font-family: roboto,sans-serif;
+    color: whitesmoke;
+    font-size: 2rem;
+    
+  }
+  .satu{
+    color: darkred;
+  }
+  .dua{
+    color: darkgreen;
+  }
+  .Profil{
+    display: flex;
+    width:20%;
+    height:5vmax;
+    /* background-color: rgba(230, 71, 124, 0.77); */
+    border: none;
+    text-align:center;
+    color: aliceblue;
+    gap: 1vmax;
+  }
+  .forKeterangan{
+    width: 70%;
+    margin: auto;
+    height: 5vmax;
+  }
+  .poto_profil{
+    border-radius: 90pc;
+    background-color: blueviolet;
+    background-image: url('../src/assets/Img/gambar-kucing-lucu-18.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16%;
+    height: 3vmax;
+    margin-top: 1vmax;
+  }
+  .UserName{
+    font-size: 1.4rem;
+    line-height: 4vmax;
+  }
+  .TitleUser{
+    font-size: 1rem;
+    line-height: 2vmax;
+  }
+  .Name_User{
+    width: 100%;
+    height: 3vmax;
+    --max-lines:1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-line-clamp: var(--max-lines);
+  }
+
+  .Title_User{
+    width: 100%;
+    height: 2vmax;
+    --max-lines:1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-line-clamp: var(--max-lines);
+  }
+  .LogOut{
+    border: none;
+    width: 7%;
+    height: 3vmax;
+    border-radius: 10px;
+    margin-top: 1vmax;
+    background-color:  rgba(219, 51, 107, 0.77);
+  }
+  .TextLogOut{
+    line-height: 3vmax;
+    color:rgb(219, 205, 205);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+  }

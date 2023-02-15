@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.background{
+ display: flex;
+ justify-content: space-between;
+}
+.background_right{
+  width: 35%;
+  height: 100vh;
+  background-color: rgb(45, 161, 161);
+}
+.background_Left{
+  width: 60%;
+  height: 100vh;
+}
+.Say_Hello{
+  text-align: center;
+  margin-top: 15vmax;
+  font-size: 3.4rem;
+  color: beige;
+  font-family: sans-serif;
+}
+.Content_SignIn{
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(216, 216, 202);
+}
+.content_p{
+  overflow: hidden;
+  width: 70%;
+  margin:3vmax auto;
+  height: 10vmax;
+
+}
+.btn_SignUp{
+  display: inline-block;
+  border: none;
+  line-height: 4vmax;
+  text-align: center;
+  position: static;
+  font-size: .8rem;
+  margin-left: 10%;
+  color: whitesmoke;
+  border-radius: 90pc;
+  box-shadow: 1px 1px 1px 3px rgb(245, 244, 244,.7);
+  width: 15%;
+  font-weight: bold;
+  margin-top: -4vmax;
+  position: absolute;
+  background-color: rgb(45, 161, 161);
+  height: 4vmax;
+}
+.SignIn_text{
+  text-align: center;
+  font-size: 2.7rem;
+  font-family: sans-serif;
+  margin-top: 10vmax;
+  color:rgb(45, 161, 161) ;
+}
+.form_SignIn{
+  width: 60%;
+  margin: auto;
+  height: 30vmax;
+}
+.Email{
+  text-indent: 1vmax;
+  height: 3vmax;
+  width: 90%;
+  border: none;
+  background-color: rgb(219, 204, 204);
+  margin-top: 2vmax;
+  margin-left: 1vmax;
+  border-radius: 10px;
+}
+.Password{
+  border-radius: 10px;
+  text-indent: 1vmax;
+  height: 3vmax;
+  width: 90%;
+  border: none;
+  background-color: rgb(219, 204, 204);
+  margin-top: 2vmax;
+  margin-left: 1vmax;
+}
+input:focus{
+  color: white;
+  background-color: rgb(132, 105, 70);
+}
+.SignIn{
+  display: inline-block;
+  border: none;
+  line-height: 4vmax;
+  margin-top: 3vmax;
+  margin-left: 11vmax;
+  text-align: center;
+  position: static;
+  color: whitesmoke;
+  border-radius: 90pc;
+  box-shadow: 1px 1px 1px 3px rgb(245, 244, 244,.7);
+  width: 40%;
+  font-weight: bold;
+  background-color: rgb(45, 161, 161);
+  height: 4vmax;
+}
+.forgot_password{
+  font-size: 1rem;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 3vmax;
+}
+.forgot_password a{
+  color: black;
+  text-decoration: none;
+}
